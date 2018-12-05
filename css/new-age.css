@@ -214,12 +214,15 @@ section h2 {
     color: #fdcc52;
   }
 }
-
+/*   background: url("../img/1.jpg") no-repeat 0 0 scroll; */
 header.masthead {
   position: relative;
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
+  background-size: 70%;
+  height:100%;
+  width:100%;
 }
 
 header.masthead .header-content {
@@ -468,11 +471,22 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   text-decoration: none;
 }
 
+.backgroundImg {
+  background-image: url("img/1.jpg");
+}
+
 .bg-primary {
   color: #FFF;
-  background: #fdcc52;
+  background: #0400CF;
   background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(rgb(80, 77, 255), rgb(80, 77, 255)); 
+}
+
+.bg-about {
+  color: #FFF;
+  background: #0400CF;
+  background: -webkit-linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(#2e90ff, #2e90ff); 
 }
 
 .text-primary {
