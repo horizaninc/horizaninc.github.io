@@ -1,214 +1,593 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
+<!--
 
+Page    : index / MobApp
+Version : 1.0
+Author  : Colorlib
+URI     : https://colorlib.com
+
+ -->
+
+<head>
+    <title>MobApp - App Landing Page Template</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Mobland - Mobile App Landing Page Template">
+    <meta name="keywords" content="HTML5, bootstrap, mobile, app, landing, ios, android, responsive">
 
-    <title>Horizan </title>
+    <!-- Font -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Themify Icons -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Main css -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
-    <!-- Custom fonts for this template -->
-    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<body data-spy="scroll" data-target="#navbar" data-offset="30">
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+    <!-- Nav Menu -->
 
-    <link rel="shortcut icon" type="image/png" href="img/Logo.png" />
-
-    <!-- Custom styles for this template -->
-    <link href="css/new-age.css" rel="stylesheet">
-
-    <!-- Facebook Pixel Code -->
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '574077569643767');
-      fbq('track', 'PageView');
-    </script>
-  <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=574077569643767&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Facebook Pixel Code -->
-
-  </head>
-
-  <body id="page-top">
-    <script>
-      fbq('track', 'CompleteRegistration');
-    </script>
-    <script>
-      fbq('track', 'Search');
-    </script>
-    <script>
-      fbq('track', 'ViewContent');
-    </script>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          <img src="img/Logo.png" alt="Horizan Sunrise Logo"
-            width="75">
-        </a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="parents.html">For Parents</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#top">Sign up</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <header class="masthead" id="top">
-      <div class="container h-100">
-          <div id="iphoneFrame">
-              <div id="iphoneVideoContent">
-                <video id="iphoneVid" width="320" height="548" autoplay loop muted playsinline frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-                    <source src="video/App.mp4">
-                </video>
-              </div>
+    <div class="nav-menu fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-dark navbar-expand-lg">
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" width=75 class="img-fluid" alt="logo"></a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"> <a class="nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#features">FEATURES</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#get-started">GET STARTED</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#faq">FAQ</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#about">ABOUT US</a> </li>
+                                <li class="nav-item"> <a class="nav-link" href="#contact">CONTACT</a> </li>
+                                <li class="nav-item"><a href="#download" class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">Download</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
             </div>
-        <div class="row h-100" background="img/1.jpg">
-          <div class="col-lg-7 my-auto">
-
-            <div class="header-content mx-auto">
-              <h1 class="mb-5">
-                <span style="font-weight:600;">Horizan</span>
-                | One search, all the colleges.
-              </h1>
-              <p>Horizan helps you turn your dream colleges to reality colleges. Our algorithm generates your closest college matches from just one simple survey.</p>
-              <form id="signupform">
-                <p>Download Horizan now from the App Store!</p>
-                <a target="_blank" href="https://itunes.apple.com/us/app/horizan/id1444559388?mt=8">
-                  <img src="img/app-store-badge.svg">
-                </a>
-              </form>
-            </div>
-          </div>
-          <div class="col-lg-5 my-auto">
-            <img src="img/HeroArtLP.png" class="img-fluid" alt="Sunrise nature scene">
-          </div>
         </div>
-      </div>
+    </div>
+
+
+    <header class="bg-gradient" id="home">
+        <div class="container mt-5">
+            <h1>Horizan</h1>
+            <h2 style="color: white">One search, all the colleges</h2>
+            <p class="tagline">Turn your dream colleges into reality. Horizan finds and rates the colleges that best match you, all from one simple survey.
+                    <br></br>
+                    Download Horizan now from the App Store!</p>
+        </div>
+        <div class="img-holder mt-3"><img src="images/homescreen.png" alt="phone" class="img-fluid"></div>
     </header>
 
-    <hr class="hr-divider hidden-lg hidden-md">
+    <div class="section light-bg" id="highlights">
 
-    <section class="features" id="features">
-      <div class="container">
-        <!-- VP 1 -->
-        <div class="row">
-          <div class="col-lg-4 my-auto">
-            <img src="img/LPVP1.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 my-auto">
-            <div class="container-fluid">
-              <h1 style="font-weight: 700;">Understanding you</h1>
-              <p>Through a comprehensive questionnaire, Horizan learns about your college preferences, and future aspirations.</p>
+
+        <div class="container">
+
+            <div class="section-title">
+                <small>HIGHLIGHTS</small>
+                <h3>Features you love</h3>
             </div>
-          </div>
+
+
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-face-smile gradient-fill ti-3x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Simple</h4>
+                                    <p class="card-text">Finding and comparing colleges has never been easier</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-settings gradient-fill ti-3x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Fast</h4>
+                                    <p class="card-text">Save hours of searching the web to research colleges</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="ti-lock gradient-fill ti-3x mr-3"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title">Free</h4>
+                                    <p class="card-text">Download the Horizan app and make an account, all for free!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <hr class="hr-divider hidden-md hidden-lg">
-        <!-- VP 2 -->
-        <div class="row">
-          <div class="col-lg-8 my-auto">
-            <div class="container-fluid">
-              <h1 style="font-weight: 700;">College Matches</h1>
-              <p>Based on your responses to the questionnaire, our team of analysts find schools which are tailored for your success.</p>
+
+
+    </div>
+    <!-- // end .section -->
+    <div class="section">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-6">
+                    <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
+                    <h2>Discover our App</h2>
+                    <p class="mb-4">See what Horizan can do to find your dream school!</p>
+                    <a href="#features" class="btn btn-primary">Read more</a>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-4 my-auto">
-            <img src="img/LPVP2.png" class="img-fluid" alt="">
-          </div>
+            <div class="perspective-phone">
+                    <div id="iphoneFrame" class="img-fluid">
+                            <div id="iphoneVideoContent">
+                              <video id="iphoneVid" width="320" height="548" autoplay loop muted playsinline frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+                                  <source src="video/App.mp4">
+                              </video>
+                            </div>
+                          </div>
+            </div>
         </div>
 
-        <hr class="hr-divider hidden-md hidden-lg">
-        <!-- VP 3 -->
-        
-      </div>
-    </section>
+    </div>
+    <!-- // end .section -->
 
-    <section class="contact bg-primary" id="contact">
-      <div class="container">
-        <h2 style="font-weight: 700">We
-          <i class="fa fa-heart"></i>
-          new friends!</h2>
-        <p>Join the community and help shape the future of college applications</p>
-        <ul class="list-inline list-social">
-          <li class="list-inline-item ">
-            <a href="https://www.facebook.com/horizanapp/">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li class="list-inline-item social-instagram">
-            <a href="https://www.instagram.com/horizanapp/">
-              <i class="fa fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
+    <!-- <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#morefeatures">More Features</a>
+                </li> -->
+    <div class="section light-bg" id="features">
+        <div class="container">
+            <div class="section-title">
+                <small>FEATURES</small>
+                <h3>Do more with Horizan</h3>
+            </div>
 
-    <footer>
-      <div class="container">
-        <p>&copy; Horizan 2018. All Rights Reserved.</p>
-      </div>
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#students">For Students</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#parents">For Parents</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#schools">For Schools</a>
+                </li>
+                
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="students">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <img src="images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <div>
+
+                            <h2>Make college searching easy.</h2>
+                            <p class="lead">We know finding the perfect college is not an easy choice. </p>
+                            <p>You're busy with school, work, socializing, and the last thing you want to do is spend hours in front of a computer surfing through hundreds of webpages.
+                                Make your searches simple and fast with the Horizan app. Built for busy students, built by busy students. 
+                                
+                            </p>
+                            <p> Our survey matches you with schools that value the same things as you, so there's no need to ask for information from your friend who might know a friend that knows someone at a school.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="parents">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div>
+                            <h2>Help your busy high school student out.</h2>
+                            <p class="lead">College searching is a busy time for both you and your student. </p>
+                            <p>There are so many factors in choosing a college to attend. Many families are concerned about how much the college will cost,
+                                 how easy it is for your student to find an internship, and how lively the environment is. The Horizan app is designed to simplify the searching process. With Horizan, you and your student will enjoy college searching again. One fast and simple survey gets you schools that match your student's preferences.
+                            </p>
+                        </div>
+                        <img src="images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="schools">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <img src="images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                        <div>
+                            <h2>A college search tool that pushes high school students to success.</h2>
+                            <p class="lead">Help your students choose the right college for them.</p>
+                            <p>
+                                    Whether you’re a teacher helping to motivate your class into getting ahead of schedule, or a counselor helping some students get back on track, Horizan is the right tool for you.
+                            </p>
+                            <p> We believe high school is the path to college, and college assistance and information is often only average in most high schools. Horizan is dedicated to bridge that gap; turn average into amazing. Using the Horizan app,
+                                 you can provide detailed assistance for students when choosing their future school. It takes one quick survey to find colleges that match their preferences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="livechat">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <div>
+                            <h2>Additional features the Horizan app has.</h2>
+                            <p class="lead">Uniquely underwhelm premium outsourcing with proactive leadership skills. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium, nisi nisi fermentum enim, et sagittis dolor nulla vel sapien. Vestibulum sit amet mattis ante. Ut placerat dui eu nulla
+                                congue tincidunt ac a nibh. Mauris accumsan pulvinar lorem placerat volutpat. Praesent quis facilisis elit. Sed condimentum neque quis ex porttitor,
+                            </p>
+                            <p> malesuada faucibus augue aliquet. Sed elit est, eleifend sed dapibus a, semper a eros. Vestibulum blandit vulputate pharetra. Phasellus lobortis leo a nisl euismod, eu faucibus justo sollicitudin. Mauris consectetur, tortor
+                                sed tempor malesuada, sem nunc porta augue, in dictum arcu tortor id turpis. Proin aliquet vulputate aliquam.
+                            </p>
+                        </div>
+                        <img src="images/graphic.png" alt="graphic" class="img-fluid rounded align-self-start mr-lg-5 mb-5 mb-lg-0">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- // end .section -->
+
+    <div class="section">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/dualphone.png" alt="dual phone" class="img-fluid">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <div class="box-icon"><span class="ti-rocket gradient-fill ti-3x"></span></div>
+                        <h2>Launch into your college search</h2>
+                        <p class="mb-4">It takes just a few steps to send your college searching above the Horizan</p>
+                        <a href="#get-started" class="btn btn-primary">Read more</a></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+
+    <div class="section light-bg" id="get-started">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 d-flex align-items-center">
+                    <ul class="list-unstyled ui-steps">
+                        <li class="media">
+                            <div class="circle-icon mr-4">1</div>
+                            <div class="media-body">
+                                <h5>Download our app</h5>
+                                <p>Click <a target="_blank" href="#download">here</a> to download the Horizan App</p>
+                            </div>
+                        </li>
+                        <li class="media my-4">
+                            <div class="circle-icon mr-4">2</div>
+                            <div class="media-body">
+                                <h5>Create an account</h5>
+                                <p>Open the Horizan app and make an account, or continue without an account to access limited search results</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <div class="circle-icon mr-4">3</div>
+                            <div class="media-body">
+                                <h5>Start your search</h5>
+                                <p>One quick survey later and you'll have a list of colleges that best fit your preferences</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/results.png" alt="iphone" class="img-fluid">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+
+    <!-- <div class="testimonials-single">
+                    <img src="images/client.png" alt="client" class="client-img">
+                    <blockquote class="blockquote">Uniquely streamline highly efficient scenarios and 24/7 initiatives. Conveniently embrace multifunctional ideas through proactive customer service. Distinctively conceptualize 2.0 intellectual capital via user-centric partnerships.</blockquote>
+                    <h5 class="mt-4 mb-2">Crystal Gordon</h5>
+                    <p class="text-primary">United States</p>
+                </div>
+            -->
+
+    <div class="section" style="padding-bottom: 60px">
+        <div class="container">
+            <div class="section-title">
+                <small>TESTIMONIALS</small>
+                <h3>What our users say</h3>
+            </div>
+
+            <div class="testimonials owl-carousel">
+                <div class="testimonials-single">
+                    <blockquote class="blockquote" style="padding-top: 60px">"Horizan is an amazing app that impressed me on multiple levels. It's exactly what I needed to speed up my search for universities."</blockquote>
+                    <h5 class="mt-4 mb-2">Jacob</h5>
+                </div>
+                <div class="testimonials-single">
+                        <blockquote class="blockquote" style="padding-top: 60px">"This app makes college searching so much easier. Horizan is a must have for any high school student going to college."</blockquote>
+                        <h5 class="mt-4 mb-2">Kayln</h5>
+                    </div>
+                <div class="testimonials-single">
+                        <blockquote class="blockquote" style="padding-top: 60px">"When I was struggling to find a college, Horizan helped me narrow my choices down. Definitely going to recommend to my friends who will be searching for colleges next year."</blockquote>
+                        <h5 class="mt-4 mb-2">Austin</h5>
+                    </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+<!--
+    <div class="section light-bg" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <small>GALLERY</small>
+                <h3>App Screenshots</h3>
+            </div>
+
+            <div class="img-gallery owl-carousel owl-theme">
+                <img src="images/screen1.jpg" alt="image">
+                <img src="images/screen2.jpg" alt="image">
+                <img src="images/screen3.jpg" alt="image">
+                <img src="images/screen1.jpg" alt="image">
+            </div>
+
+        </div>
+
+    </div>
+-->
+    <!-- // end .section -->
+
+
+
+
+
+    <!-- <div class="section" id="pricing">
+        <div class="container">
+            <div class="section-title">
+                <small>PRICING</small>
+                <h3>Upgrade to Pro</h3>
+            </div>
+
+            <div class="card-deck">
+                <div class="card pricing">
+                    <div class="card-head">
+                        <small class="text-primary">PERSONAL</small>
+                        <span class="price">$14<sub>/m</sub></span>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <div class="list-group-item">10 Projects</div>
+                        <div class="list-group-item">5 GB Storage</div>
+                        <div class="list-group-item">Basic Support</div>
+                        <div class="list-group-item"><del>Collaboration</del></div>
+                        <div class="list-group-item"><del>Reports and analytics</del></div>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary btn-lg btn-block">Choose this Plan</a>
+                    </div>
+                </div>
+                <div class="card pricing popular">
+                    <div class="card-head">
+                        <small class="text-primary">FOR TEAMS</small>
+                        <span class="price">$29<sub>/m</sub></span>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <div class="list-group-item">Unlimited Projects</div>
+                        <div class="list-group-item">100 GB Storage</div>
+                        <div class="list-group-item">Priority Support</div>
+                        <div class="list-group-item">Collaboration</div>
+                        <div class="list-group-item">Reports and analytics</div>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary btn-lg btn-block">Choose this Plan</a>
+                    </div>
+                </div>
+                <div class="card pricing">
+                    <div class="card-head">
+                        <small class="text-primary">ENTERPRISE</small>
+                        <span class="price">$249<sub>/m</sub></span>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <div class="list-group-item">Unlimited Projects</div>
+                        <div class="list-group-item">Unlimited Storage</div>
+                        <div class="list-group-item">Collaboration</div>
+                        <div class="list-group-item">Reports and analytics</div>
+                        <div class="list-group-item">Web hooks</div>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary btn-lg btn-block">Choose this Plan</a>
+                    </div>
+                </div>
+            </div>
+            <!-- // end .pricing -->
+
+            <!--
+
+        </div>
+
+    </div>
+
+-->
+    <!-- // end .section -->
+    
+
+
+    <div class="section light-bg" id="faq">
+        <div class="container">
+            <div class="section-title">
+                <small>FAQ</small>
+                <h3>Frequently Asked Questions</h3>
+            </div>
+
+            <div class="row pt-4">
+                <div class="col-md-6">
+                    <h4 class="mb-3">Is Horizan completely free?</h4>
+                    <p class="light-font mb-5">Yes!</p>
+                    <h4 class="mb-3">What kind of questions will the survey ask me?</h4>
+                    <p class="light-font mb-5">Horizan will ask questions regarding your financial, social, and geographical preferences, just to name a few.</p>
+
+                </div>
+                <div class="col-md-6">
+                    <h4 class="mb-3">How do I contact or get involved with Horizan?</h4>
+                    <p class="light-font mb-5">Feel free to reach us at our email admin@horizan.com</p>
+                    <h4 class="mb-3">How are we different from compeitors?</h4>
+                    <p class="light-font mb-5">We pride ourselves on 2 main goals: Simple and fast. Forget about the clumsy process of searching each college website for details, writing them down, and comparing each college this way. One survey, all your matches. It's as simple as that, really. </p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+    <!-- <a href="#" class="btn btn-light"><img src="images/playicon.png" alt="icon"> Google play</a> -->
+
+    <div class="section bg-gradient" id="download">
+        <div class="container">
+            <div class="call-to-action">
+
+                <div class="box-icon"><span class="ti-mobile gradient-fill ti-3x"></span></div>
+                <h2>Download the free Horizan app</h2>
+                <p class="tagline">Available for iOS</p>
+                <div class="my-4">
+
+                    <a target="_blank" href="https://itunes.apple.com/us/app/horizan/id1444559388?mt=8" class="btn btn-light"><img src="images/appleicon.png" alt="icon"> App Store</a>
+                    
+                </div>
+                <p class="text-primary"><small><i>*Works on iOS 10.0.5+, Android Kitkat and above. </i></small></p>
+            </div>
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+    <div class="section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h3>About Us</h3>
+            </div>
+            <div>
+                <h4 class="mb-3">Our Story</h4>
+                <p class="light-font mb-5">
+                    Education is the process of trial and error, learning by doing, and picking yourself back up after finding out what you thought you knew was wrong. 
+                    <br><br>That’s the story of Horizan.
+                    <br><br>It began as a project by actual high schoolers that lived through the long and arduous college application process. 
+                    Horizan has survived both praise and criticism from judges, investors, and other high school students throughout the years. 
+                    From napkin sketches to whiteboard wireframes to prototypes, from coast to coast conferences, 
+                    and from the hands of students to the eyes of teachers, we developed a product that spoke directly to students. 
+                    Horizan has three goals: to be simple, fast, and free. Our motto is to continue striving for the best even in the face of adversity.
+                    <br><br>
+                    Right now we're at the sunrise, but the best is still over the Horizan.
+                </p>
+                <h4 class="mb-3">Our Team</h4>
+            </div>
+
+            <div style="padding-top: 1rem; padding-bottom: 1rem; padding: 1rem; background-color: #faf6fb">
+            <div class="team owl-carousel owl-theme" style="margin-top: 4rem;">
+                    <div style="padding-left: 2rem; padding-right: 2rem; ">
+                        <h2>Jonathan Sun</h2>
+                        <p class="lead">Founder</p>
+                        <p class="light-font mb-5">
+                                Jonathan started Horizan because he saw the gap in the college search market during his own experience trying to find a good school. He brings a solid UX background together with a deep understanding of the audience to drive the vision of Horizan forward. 
+                            </p>
+                    </div>
+                    <div style="padding-left: 2rem; padding-right: 2rem">
+                        <h2>Dalton Ding</h2>
+                        <p class="lead">Co-Founder</p>
+                        <p class="light-font mb-5">
+                                Dalton has been with Horizan since its early stages when he found Jonathan’s vision innovative and exciting. He comes from a strong background of programming and business. Currently, he focuses front-end development while assisting with many other decisions that help progress Horizan.
+                            </p>
+                    </div>
+                    <div style="padding-left: 2rem; padding-right: 2rem">
+                            <h2>Jack Mask</h2>
+                            <p class="lead">Head of Back-End Development</p>
+                            <p class="light-font mb-5">
+                                    
+                                </p>
+                        </div>
+                </div>  
+                </div>          
+        </div>
+
+    </div>
+    <!-- // end .section -->
+
+    <!--                             <span class="ti-headphone-alt mr-2"></span> <a href="tel:51836362800">518-3636-2800</a> 
+                            <a href="#"><span class="ti-twitter-alt"></span></a>
+    -->
+    <div class="light-bg py-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-left">
+                    <p class="mb-2"> <span class="ti-location-pin mr-2"></span> 92 Lenora St. Seattle, WA 98121</p>
+                    <div class=" d-block d-sm-inline-block">
+                        <p class="mb-2">
+                            <span class="ti-email mr-2"></span> <a class="mr-4" href="mailto:admin@horizan.com">admin@horizan.com</a>
+                        </p>
+                    </div>
+                    <div class="d-block d-sm-inline-block">
+                        <p class="mb-0">
+
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="social-icons">
+                        <a target="_blank" href="https://www.facebook.com/horizanapp/"><span class="ti-facebook"></span></a>
+
+                        <a target="_blank" href="https://www.instagram.com/horizanapp/"><span class="ti-instagram"></span></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- // end .section -->
+    <footer class="my-5 text-center">
+            <p class="mb-2"><small>COPYRIGHT © 2018 HORIZAN INC. ALL RIGHTS RESERVED.</small></p>
+        <small>
+            <a href="#" class="m-2">PRESS</a>
+            <a href="#" class="m-2">TERMS</a>
+            <a href="#" class="m-2">PRIVACY</a>
+        </small>
+
+        <!-- Copyright removal is not prohibited! -->
+        <p style="color: white; font-size: 0.1px"><small>COPYRIGHT © 2017. ALL RIGHTS RESERVED. MOBAPP TEMPLATE BY <a style="color: white; font-size: 0.1px" href="https://colorlib.com">COLORLIB</a></small></p>
     </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery and Bootstrap -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Plugins JS -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/new-age.min.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
-    <script>
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyBtESNFsXi4331ry4bDqWyPU2vQptbdtM8",
-        authDomain: "horizansignup.firebaseapp.com",
-        databaseURL: "https://horizansignup.firebaseio.com",
-        projectId: "horizansignup",
-        storageBucket: "",
-        messagingSenderId: "134740080600"
-      };
-      firebase.initializeApp(config);
-    </script>
-    <script src="js/app.js"></script>
-
-  </body>
+</body>
 
 </html>
